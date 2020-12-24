@@ -554,9 +554,10 @@ execa@^4.0.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-"faunadb@git+https://github.com/fauna/faunadb-js.git#triage/bearer-to-basic":
+faunadb@^4.0.0:
   version "4.0.0"
-  resolved "git+https://github.com/fauna/faunadb-js.git#135256ed60a8043201085f18ed6fd2032cc9dd88"
+  resolved "https://registry.npmjs.org/faunadb/-/faunadb-4.0.0.tgz#5fd922b811bd40154e3b5234f39cac512f464f51"
+  integrity sha512-tXiGthGdbInZ6hzdmGFxnxqsQe2mKq+pnOc+zHZYXtD8TDgKWpK0F9M0tmRpD0uoQUrBHzXU7hxE24pJJxPdbQ==
   dependencies:
     abort-controller "^3.0.0"
     base64-js "^1.2.0"
